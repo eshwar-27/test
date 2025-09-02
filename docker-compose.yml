@@ -20,7 +20,7 @@ services:
     depends_on:
       - backend
     ports:
-      - "4200:4000"
+      - "80:4000"
 
   db:
     image: mongo:6
